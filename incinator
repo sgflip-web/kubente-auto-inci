@@ -1,0 +1,15 @@
+pip install -r requirements.txt
+python3 init_database.py
+streamlit run app.py
+kubente-auto-inci/
+├── app.py                    # Interfaz Streamlit
+├── inci_calculator.py        # Motor de cálculo
+├── regulatory_validator.py   # Validaciones
+├── export_generator.py       # Exportación PDF/Excel
+├── init_database.py          # Inicialización BD
+├── cosmetic_database.db      # Base de datos SQLite
+├── test_acceptance.py        # Pruebas
+├── README.md                 # Documentación
+├── QUICK_START.md           # Inicio rápido
+├── DEPLOYMENT.md            # Despliegue
+└── requirements.txt         # Dependencias
